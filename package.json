@@ -1,0 +1,13 @@
+{
+  "name": "floodrelief-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FloodRelief PERN Stack Portfolio Project",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "db:init": "npm --prefix backend run db:init",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build"
+  }
+}
+
